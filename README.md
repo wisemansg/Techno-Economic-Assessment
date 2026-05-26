@@ -1,7 +1,121 @@
-🔆 ABSTRACT
+# Techno-Economic Assessment of Solar Photovoltaic System ☀️ 
 
-Solar photovoltaic (PV) systems are becoming increasingly important for residential energy solutions due to their environmental and economic benefits. This study assesses the technoeconomic viability of a grid connected solar PV system for a single family house in Borrowdale, Harare, Zimbabwe. Using PVsyst simulation software, the proposed system was designed with 16 PV modules, resulting in a total installed capacity of 5.04 kWp. The performance of the system was evaluated based on energy output, efficiency, and financial returns. The simulation predicted an annual energy production of 8003 kWh, with a performance ratio (PR) of 78.51%. Economic analysis revealed a total installation cost of USD 6.770, an annual operating cost of USD 880.76, and a payback period of 2.8 years. The levelized cost of energy (LCOE) was calculated at USD 0.16 per kWh. Additionally, the system is expected to reduce CO₂ emissions by 158.5 tons over a 30 year lifetime. These results demonstrate that the system is both technically efficient and economically feasible, offering significant environmental benefits.
+<p align="center">
+  <img src="https://img.shields.io/badge/PVsyst-FFB000?logo=solar&logoColor=white" />
+  <img src="https://img.shields.io/badge/Solar%20PV-FFCC00?logo=solarfarms&logoColor=black" />
+  <img src="https://img.shields.io/badge/Renewable%20Energy-2E8B57?logo=leaflet&logoColor=white" />
+  <img src="https://img.shields.io/badge/Energy%20Systems-1E90FF?logo=powerpages&logoColor=white" />
+  <img src="https://img.shields.io/badge/Simulation-6A5ACD?logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Economic%20Analysis-228B22?logo=googleanalytics&logoColor=white" />
+  <img src="https://img.shields.io/badge/Microsoft%20Excel-217346?logo=microsoftexcel&logoColor=white" />
+</p>
 
-📌 KEYWORDS
+---
 
-renewable energy, solar photovoltaics, pvsyst, grid connected, renewable energy, simulation, carbon footprint, economic analysis, sustainability.
+**Author:** Wiseman Siriro  
+**Institution:** Norwegian University of Science and Technology (NTNU), Norway  
+**Email:** wisemans@stud.ntnu.no  
+**Department:** Faculty of Engineering (IV), Department of Manufacturing and Civil Engineering, Renewable Energy Technology
+
+### 📋 Abstract
+
+Solar photovoltaic (PV) systems are becoming increasingly important for residential energy solutions due to their environmental and economic benefits. This study assesses the techno-economic viability of a grid-connected solar PV system for a single-family house in Borrowdale, Harare, Zimbabwe. Using PVsyst simulation software, the proposed system was designed with 16 PV modules, resulting in a total installed capacity of **5.04 kWp**. The simulation predicted an annual energy production of **8003 kWh**, with a performance ratio (PR) of **78.51%**. Economic analysis revealed a total installation cost of **USD 6,770**, an annual operating cost of **USD 880.76**, and a remarkably short payback period of **2.8 years**. The levelized cost of energy (LCOE) was calculated at **USD 0.16 per kWh**. Additionally, the system is expected to reduce **CO₂ emissions by 158.5 tons** over its 30-year lifetime.**These results clearly demonstrate that the system is both technically efficient and highly economically feasible**, offering substantial environmental benefits for residential users in Zimbabwe.
+
+### 🔑 Keywords
+renewable energy, solar photovoltaics, pvsyst, grid-connected, renewable energy, simulation, carbon footprint, economic analysis, sustainability, LCOE, payback period, Zimbabwe energy
+
+## ✨ Key Highlights
+
+- **Annual Energy Yield:** 8,003 kWh  
+- **Performance Ratio:** 78.51%  
+- **Payback Period:** Only **2.8 years**  
+- **LCOE:** USD 0.16/kWh *(highly competitive)*  
+- **CO₂ Savings:** 158.5 tons over 30 years  
+- **System Capacity:** 5.04 kWp (16 modules)
+
+## 🏗️ Project Overview
+
+This comprehensive techno-economic study evaluates the feasibility of a **5.04 kWp grid-connected solar PV system** for a single-family house in Borrowdale, Harare, Zimbabwe using **PVsyst 7.4.8** simulation software and real local weather data.
+
+## 📍 Site Information
+
+### Geographical Coordinates
+
+| Parameter                          | Values                  |
+|------------------------------------|-------------------------|
+| Latitude                           | -17.76° S               |
+| Longitude                          | 31.11° E                |
+| Altitude (m above sea level)       | 1524 m                  |
+| Albedo (reflectivity of the ground surface) | 0.20              |
+| Time Zone                          | 2.0                     |
+
+![Geographical Locations](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Photovoltaic%20System/Geographical%20locations%20(a)%20Shows%20a%20global%20solar%20radiation%20map%20(b)%20The%20interactive%20map%20of%20Harare%20City.png)
+
+## 🔧 Key System Specifications
+
+| Parameter              | Specification                          |
+|------------------------|----------------------------------------|
+| PV Modules             | 16 × PM318B01_315                      |
+| Total Capacity         | 5.04 kWp                               |
+| Inverter               | SUN2000-4.95KTL-JPL1 (4.95 kW)         |
+| Tilt Angle             | 22°                                    |
+| Azimuth                | 0° (True North)                        |
+| Configuration          | Grid-tied with no shading              |
+
+![System Design Overview](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Photovoltaic%20System/System%20design%20overview..png)
+
+![Single Line Diagram](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Photovoltaic%20System/Single-line%20diagram.%20.png)
+
+## 📊 Detailed Simulation Results
+
+### Balances and Performances of the Proposed Grid-Connected PV System in Borrowdale, Harare, Zimbabwe
+
+| Month      | GlobHor (kWh/m²) | DiffHor (kWh/m²) | T_Amb (°C) | GlobInc (kWh/m²) | GlobEff (kWh/m²) | EArray (kWh) | E_Grid (kWh) | PR ratio |
+|------------|------------------|------------------|------------|------------------|------------------|--------------|--------------|----------|
+| January    | 168.5            | 75.43            | 21.36      | 151.0            | 142.6            | 616.1        | 593.7        | 0.780    |
+| February   | 150.7            | 80.06            | 21.10      | 143.5            | 135.9            | 589.5        | 568.6        | 0.786    |
+| March      | 160.5            | 63.19            | 20.71      | 164.7            | 157.2            | 674.6        | 650.4        | 0.783    |
+| April      | 156.1            | 62.42            | 18.65      | 174.8            | 167.4            | 727.4        | 702.3        | 0.797    |
+| May        | 145.2            | 52.02            | 16.90      | 176.0            | 168.6            | 741.9        | 697.9        | 0.787    |
+| June       | 128.5            | 46.18            | 14.62      | 161.2            | 154.3            | 688.9        | 665.3        | 0.819    |
+| July       | 138.2            | 40.94            | 14.50      | 172.6            | 165.4            | 733.7        | 692.9        | 0.796    |
+| August     | 159.2            | 57.14            | 17.03      | 184.7            | 177.2            | 772.5        | 746.2        | 0.801    |
+| September  | 176.7            | 57.57            | 20.00      | 189.2            | 181.2            | 774.4        | 748.2        | 0.785    |
+| October    | 191.1            | 69.05            | 22.26      | 187.8            | 179.1            | 760.3        | 734.3        | 0.776    |
+| November   | 178.3            | 78.22            | 21.90      | 163.3            | 154.8            | 663.6        | 597.1        | 0.726    |
+| December   | 173.2            | 88.15            | 21.46      | 153.7            | 144.9            | 628.8        | 606.1        | 0.783    |
+| **Year**   | **1926.3**       | **770.37**       | **19.20**  | **2022.4**       | **1928.8**       | **8371.6**   | **8003.0**   | **0.785** |
+
+## 💰 Financial Analysis
+
+**Total Installation Cost: USD 6,770**
+
+### Cost Details of the PV System Components
+
+| Description            | Quantity | Unit Price (USD) | Total (USD) |
+|------------------------|----------|------------------|-------------|
+| PV modules             | 16       | 200              | 3,200       |
+| Support for modules    | 16       | 100              | 1,600       |
+| Inverter               | 1        | —                | 1,000       |
+| Other components       | 6        | 220              | 220         |
+| Studies and analysis   | 4        | 250              | 250         |
+| Installation           | 3        | 500              | 500         |
+| **Total**              | —        | —                | **6,770**   |
+
+![Detailed Economic Results](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Photovoltaic%20System/Detailed%20economic%20results%20(USD)..png)
+
+![Financial Parameters](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Photovoltaic%20System/Financial%20Parameters..png)
+
+![Electricity Sales](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Photovoltaic%20System/Electricity%20sales.%20.png)
+
+## 📥 Download Project Files
+
+- **[📄 Download Full Documentation PDF](https://github.com/wisemansg/Techno-Economic-Assessment/blob/main/Solar%20Photovoltaic%20System/Techno-Economic%20Assessment%20of%20Solar%20Photovoltaic%20System.pdf)**
+
+- **[📦 Download Complete Project ZIP](https://github.com/wisemansg/Techno-Economic-Assessment/blob/main/Solar%20Photovoltaic%20System/Techno-Economic%20Assessment%20of%20Solar%20Photovoltaic%20System.pdf)** *(Contains all simulation files, raw data, PVsyst project files, and supporting documents)*
+
+Renewable Energy Technology | Data Engineering | Energy Systems Analysis
+
+*© 2024 by the authors. Submitted for possible open access publication under the terms and conditions of the (CC BY) 4.0 license.*
+
+---
