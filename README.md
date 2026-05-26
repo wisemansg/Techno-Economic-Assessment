@@ -1,4 +1,6 @@
-# Techno-Economic Assessment of Solar Photovoltaic System ☀️ 
+# TECHNO-ECONOMIC ASSESSMENT
+
+# PROJECT 1 - Solar Photovoltaic System ☀️
 
 <p align="center">
   <img src="https://img.shields.io/badge/PVsyst-FFB000?logo=solar&logoColor=white" />
@@ -117,5 +119,125 @@ This comprehensive techno-economic study evaluates the feasibility of a **5.04 k
 Renewable Energy Technology | Data Engineering | Energy Systems Analysis
 
 *© 2024 by the authors. Submitted for possible open access publication under the terms and conditions of the Creative Commons Attribution (CC BY) 4.0 license.*
+
+---
+
+# PROJECT 2 - Solar Water Heating System ☀️
+
+<p align="center">
+  <img src="https://img.shields.io/badge/RETScreen-2E8B57?logo=leaflet&logoColor=white" />
+  <img src="https://img.shields.io/badge/Solar%20Thermal-FFB000?logo=solar&logoColor=white" />
+  <img src="https://img.shields.io/badge/Renewable%20Energy-228B22?logo=leaflet&logoColor=white" />
+  <img src="https://img.shields.io/badge/Economic%20Analysis-1E90FF?logo=googleanalytics&logoColor=white" />
+  <img src="https://img.shields.io/badge/Financial%20Modeling-6A5ACD?logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Emission%20Analysis-32CD32?logo=powerpages&logoColor=white" />
+  <img src="https://img.shields.io/badge/Microsoft%20Excel-217346?logo=microsoftexcel&logoColor=white" />
+</p>
+
+---
+
+**Author:** Wiseman Siriro  
+**Institution:** Norwegian University of Science and Technology (NTNU), Norway  
+**Email:** wisemans@stud.ntnu.no  
+**Department:** Faculty of Engineering (IV), Department of Manufacturing and Civil Engineering, Renewable Energy Technology
+
+### 📋 Abstract
+
+This study presents a detailed techno-economic assessment of a **Solar Water Heating System (SWHS)** for a single-family house in Borrowdale, Harare, Zimbabwe. Using **RETScreen Expert** software, the analysis evaluates energy performance, economic feasibility, financial returns, and environmental impact of installing a 10 m² glazed solar collector system to meet domestic hot water demand for a 4-person household.
+
+### ✨ Key Project Highlights
+
+- **Annual Energy Saved:** 7,852 kWh  
+- **Solar Fraction:** 72.6%  
+- **Simple Payback Period:** 18.4 years  
+- **Annual Fuel Cost Savings:** 17,558 ZWD  
+- **GHG Emission Reduction:** 96.1 tCO₂/year (12.4%)  
+- **Collector Area:** 10 m² at optimal tilt of 16.1°
+
+## 🖼️ System Overview
+
+![Solar Water Heating System](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Water%20Heating/Solar%20Water%20Heating%20System.jpeg)
+
+## 📍 Site Design Parameters
+
+| Parameter                    | Value              |
+|-----------------------------|--------------------|
+| Location                     | Borrowdale, Harare |
+| Latitude                     | -17.756            |
+| Longitude                    | 30.107             |
+| Optimal Tilt Angle           | 16.1°              |
+| Facing Direction             | North              |
+| Azimuth                      | 0°                 |
+| Collector Type               | Glazed             |
+| Gross Collector Area         | 10 m²              |
+| Storage Capacity             | 750 L              |
+
+![RETScreen Location Data](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Water%20Heating/RETScreen%20%E2%80%93%20Location%20Data%20.jpeg)
+
+![RETScreen Location Data 2](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Water%20Heating/RETScreen%20%E2%80%93%20Location%20Data%202.jpeg)
+
+![Climate Data](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Water%20Heating/Climate%20Data.jpeg)
+
+## 🔧 RETScreen Model & Facility
+
+![RETScreen Facility](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Water%20Heating/RETScreen%20Facility.jpeg)
+
+## 📊 Main Results
+
+| Parameter                              | Value                  |
+|----------------------------------------|------------------------|
+| Annual Solar Radiation (Horizontal)    | 2.03 MWh/m²            |
+| Annual Solar Radiation (Tilted)        | 1.84 MWh/m²            |
+| Energy Saved                           | 7,852 kWh/year         |
+| Solar Fraction                         | 72.6%                  |
+| Total Incremental Initial Cost         | 361,297 ZWD            |
+| Annual Fuel Cost Savings               | 17,558 ZWD             |
+| Simple Payback Period                  | 18.4 years             |
+| Gross Annual GHG Reduction             | 96.1 tCO₂ (12.4%)      |
+| NPV                                    | -121,626 ZWD           |
+
+## 💰 Cost Analysis
+
+![Cost Analysis](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Water%20Heating/Cost%20Analysis.jpeg)
+
+## 🌍 Emission Analysis
+
+![Emission Analysis](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Water%20Heating/Emission%20Analysis.jpeg)
+
+## 📈 Financial Analysis
+
+![Financial Analysis](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Water%20Heating/Financial%20Analysis.jpeg)
+
+## 📉 Sensitivity & Risk Analysis
+
+![Sensitivity Analysis](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Water%20Heating/Sensitivity%20Analysis.jpeg)
+
+![Risk Analysis](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Water%20Heating/Risk%20Analysis.jpeg)
+
+## Advantages & Disadvantages
+
+| Advantages                        | Disadvantages                     |
+|-----------------------------------|-----------------------------------|
+| Reduces energy bills              | High initial costs                |
+| Environmentally friendly          | Weather dependent                 |
+| Energy independence               | Requires space for installation   |
+| Utilizes renewable energy         | Needs regular maintenance         |
+| Low maintenance costs             | Limited efficiency in cold climates |
+
+## 💡 Recommendations
+
+- Combine the solar water heater with an electric backup for cloudy days
+- Explore government subsidies or green energy incentives in Zimbabwe
+- Consider increasing collector area if roof space allows
+- Implement regular maintenance schedule for optimal long-term performance
+- Monitor actual performance after installation to validate RETScreen predictions
+
+## 📥 Download Project Files
+
+- **[📄 Download Full PDF Report](https://raw.githubusercontent.com/wisemansg/Techno-Economic-Assessment/main/Solar%20Water%20Heating/Solar%20Thermal%20Project%202024.pdf)**
+
+Renewable Energy Technology | Data Engineering | Energy Systems Analysis
+
+*© 2024 Wiseman Siriro. Submitted for possible open access publication under Creative Commons Attribution (CC BY) 4.0 license.*
 
 ---
