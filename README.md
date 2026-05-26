@@ -116,6 +116,6 @@ This comprehensive techno-economic study evaluates the feasibility of a **5.04 k
 
 Renewable Energy Technology | Data Engineering | Energy Systems Analysis
 
-*© 2024 by the authors. Submitted for possible open access publication under the terms and conditions of the (CC BY) 4.0 license.*
+*© 2024 by the authors. Submitted for possible open access publication under the terms and conditions of the Creative Commons Attribution (CC BY) 4.0 license.*
 
 ---
